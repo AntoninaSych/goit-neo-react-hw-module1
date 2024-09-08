@@ -6,11 +6,17 @@
     padding: 20px;
     border: 1px solid black;
     border-radius: 10px;
-    background-color: #fff; /* Light background for visibility */
+    background-color: #fff;
     width: 150px;
     height: auto;
     text-align: center;
-    color: black; /* Default text color */
+    color: black;
+    transition: transform 0.3s ease; /* Добавляем плавный переход */
+}
+
+.item:hover {
+    cursor: pointer;
+    transform: scale(1.1); /* Эффект увеличения при наведении */
 }
 
 .avatar {
@@ -34,9 +40,9 @@
 }
 
 .online {
-    color: green; /* Green color for online status */
+    color: green;
 }
 
 .offline {
-    color: red; /* Red color for offline status */
+    color: red;
 }

@@ -1,14 +1,13 @@
 .friendList {
     list-style: none;
-    padding: 0;
+    padding: 20px;
     margin: 0;
-    display: flex; /* Use flexbox to align items in a row */
-    flex-direction: row; /* Ensure items are aligned horizontally */
-    justify-content: center; /* Center the items horizontally */
-    gap: 20px; /* Add space between each item */
-    overflow-x: auto; /* Allow horizontal scrolling if content overflows */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    overflow-x: auto;
 }
-
 
 .friendList li {
     width: 100%;
