@@ -5,6 +5,7 @@
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 20px;
+    color: #373535;
     background-color: #f4f4f4;
 }
 
@@ -46,7 +47,7 @@
 
 .label {
     font-size: 14px;
-    color: #999;
+    color: #373535;
 }
 
 .quantity {

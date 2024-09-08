@@ -1,7 +1,7 @@
 .transactionHistory {
     width: 100%;
     margin: 20px auto;
-    border-collapse: collapse;
+    border-collapse: collapse; /* Merge borders */
 }
 
 .transactionHistory th,
@@ -11,5 +11,21 @@
 }
 
 .transactionHistory th {
-    background-color: #f4f4f4;
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+}
+
+.transactionHistory td {
+    text-align: center;
+    color: #333333;
+    background-color: white;
+}
+
+.transactionHistory tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.transactionHistory tr:nth-child(odd) {
+    background-color: white;
 }
